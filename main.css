@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+nav {
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.hidden {
+  display: none;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+
+label, button, input[type='text'] {
+  display: block;
+  margin: 10px auto;
+}
